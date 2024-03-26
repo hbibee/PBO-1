@@ -22,7 +22,7 @@ public class terserah {
         System.out.println("Nama: " + nama);
         System.out.println("Jenis Kelamin: " + (jenisKelamin == 'P' ? "Perempuan" : "Laki-laki"));
         System.out.println("Umur: " + umur.getYears() + " tahun " + umur.getMonths() + " bulan ");
-        
+
         scanner.close();
     }
 }
